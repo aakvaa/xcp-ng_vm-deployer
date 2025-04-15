@@ -45,7 +45,7 @@ O `cloud-init` detecta e aplica automaticamente a configuração estática.
 1. Clone o projeto:
 
 ```bash
-git clone https://github.com/seuuser/VM-Deployer.git
+git clone https://github.com/seuuser/xcp-ng_vm-deployer.git
 cd VM-Deployer
 ```
 

@@ -37,12 +37,6 @@ variable "vm_user" {
   type        = string
 }
 
-variable "vm_password" {
-  description = "Password for the VM"
-  type        = string
-  sensitive   = true  
-}
-
 variable "vm_description" {
   description = "Descrição da VM"
   type        = string
@@ -77,3 +71,8 @@ variable "vm_os_template" {
   description = "Tipo do sistema operacional (ubuntu|debian)"
   type        = string
 }
+
+variable "private_key_path" {
+   description = "Caminho absoluto da sua private key (ex: ~/.ssh/id_rsa)"
+   type        = string
+ }

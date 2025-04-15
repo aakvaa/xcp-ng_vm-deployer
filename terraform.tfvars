@@ -19,3 +19,4 @@ vm_user        = "myuser"                      # Nome do usuário da VM
 public_key    = "sua chave publica"            # Public key
 ignore_ssl     = false                         # ignroar certificado ssl
 vm_description = "VM criada via Terraform"     # Descrição da VM
+private_key_path = "~/.ssh/id_rsa"             # Chave privada
